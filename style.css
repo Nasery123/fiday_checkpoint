@@ -1,0 +1,117 @@
+
+eader{
+    position: fixed;
+}
+
+
+
+
+input{
+    width: 100%;
+}
+.phone{
+    margin-left:1px;
+}
+
+.Message{
+   height: 80px;
+}
+.check{
+    color:lightseagreen;
+}
+.bimage{
+    padding-top:40px;
+
+
+}
+.bmg{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.bmg::before{
+    content: "";
+    background-image: url("nat.jpg") repeat 0 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    opacity: 0.7;
+
+}
+.text-over{
+    text-align: center;
+
+
+}
+
+
+
+
+
+.access{
+    color:white;
+}
+
+
+.box1{
+    background-color: lightgray;
+    padding-left: 20px;
+}
+.box2{
+    padding-left: 20px;
+}
+.right{
+    position: relative;
+}
+.left{
+    position: absolute;
+    right:25px;
+    bottom:-60px;
+    box-shadow: 3px 5px 3px 3px;
+}
+@media (max-width: 768px){
+    .left{
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        padding:9px;
+    }
+}
+.family{
+    width: 350px;
+    height: 270px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+inp{
+    background-color: lightgray;
+}
+.box4{
+    background-color: lightgray;
+}
+
+
+
+.icons{
+    color: limegreen;
+
+}
+@media (max-width: 768px){
+    .icon-box{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+.last-text{
+    background-color: lightgray;
+
+}
+.md{
+    color: limegreen;
+}
