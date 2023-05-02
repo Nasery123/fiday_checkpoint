@@ -1,6 +1,6 @@
 
-eader{
-    position: fixed;
+header{
+    font-family: Roboto, sans-serif;
 }
 
 
@@ -114,4 +114,5 @@ inp{
 }
 .md{
     color: limegreen;
+    padding-top: 80px;
 }
